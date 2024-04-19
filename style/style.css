@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(to bottom, #37290c, #a56439);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.description {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal; 
+    font-style: italic; 
+    color: #fbfbfb; 
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header-content {
+    position: relative;
+}
+
+.header-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(69, 38, 19);
+    font-style: italic;
+    font-size: 80px;
+    text-shadow: 
+        -1px -1px 0 #fff,  
+        3px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        3px 3px 0 #fff;
+}
+
+.container {
+    position: relative; 
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+video {
+    width: 50%;
+    border: 20px solid #f1f5fa;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    margin-left: 200px;
+}
+
+audio {
+    width: 50%; 
+    margin-top: 20px; 
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: #f3d07e; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;
+    margin-left: 300px;
+}
+
+.btn:hover {
+    background-color: #ffee69;}
+
+.bintang {
+    position: relative;
+    width: 200px;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+}
+
+.icon:nth-child(1) {
+    left: 850px;
+    top: 250px;
+    font-size: 200px;
+}
+
+.icon:nth-child(2) {
+    left: 1000px;
+    top: 40px;
+    font-size: 90px;
+}
+
+.icon:nth-child(3) {
+    top: 15px;
+    left: 300px;
+    font-size: 40px; 
+}
+
+.icon:nth-child(4) {
+    top: 100px;
+    left: 80px;
+    font-size: 100px
+}
+
+.icon:nth-child(5) {
+    top: 550px;
+    left: 50px;
+    font-size: 200px;
+}
+
+.icon:nth-child(6) {
+    top: 700px;
+    left: 1000px;
+    font-size: 50px;
+}
+
+.icon:nth-child(7) {
+    top: 400px;
+    left: 300px;
+    font-size: 30px;
+}
